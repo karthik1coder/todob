@@ -1,0 +1,88 @@
+body
+{
+	background-color: blue;
+
+}
+input[type=text]
+{
+	min-width: 40px;
+	max-width: 100%;
+	margin: 20px;
+	border: 2px solid grey;
+	padding: 10px;
+
+
+}
+
+
+.hor 
+{
+	display: inline-block;
+	color: white;
+	border-bottom: 1px solid black;
+
+
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+li.hor
+{
+	color: orange;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#div
+{
+	display: inline-block;
+}
+
+#all
+{
+	display:;
+}
+#complete
+{
+display: none;
+}
+#incomplete
+{
+	display: none;
+}
+
+.delete
+{
+	padding: 1px;
+	
+	color: red;
+	background-color: white;
+	cursor: pointer;
+}
+
+.mark
+{
+padding: 1px;
+border-radius: 1px;
+color: white;
+border-color: black;
+}
+
+#submit
+{
+	background-color:green ;
+	
+}
+
+#clear
+{
+	background-color: red;
+}
+
+#todos
+{
+	border: 1px solid grey;
+width: auto;
+height: auto;
+}

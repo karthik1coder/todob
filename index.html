@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+
+
+
+
+
+<link href="index.css" rel="stylesheet" type="text/css">
+	</head>
+
+
+	<body width="auto" height="auto">
+		
+<h1>WELCOME to todo website</h1>
+		<form>
+
+<input type="text" id="list" placeholder="Type your todo list">
+
+<input type="date" id="mention">
+</form>
+
+<button onclick="f()"     id="submit">submit</button>
+<button onclick="clean()" id="clear">clear</button>
+
+
+
+<ul id="todos" type="none" >
+
+	</ul>
+
+<p id="div">0 tasks left </p>
+<a href="#complete" onclick="done()" style="margin-left:70%" class="hor">Complete</a>
+<a href="#incomplete" onclick="undone()" class="hor">Incomplete</a>
+<a href="#all" onclick="show()" class="hor">All</a>
+
+<script src="index.js"></script>
+
+	</body>
+</html>
